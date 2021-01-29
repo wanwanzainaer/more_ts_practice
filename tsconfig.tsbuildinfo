@@ -32,8 +32,8 @@
         "affectsGlobalScope": true
       },
       "./src/app.ts": {
-        "version": "45f5443af0106efcc1521c3a07975b0c8a2eb9a7fc8cb93cb255b875625ed660",
-        "signature": "57930d2d1a6ff72b350a663a0f3db22e9ce97b6056605bf743cab2eb995a2d61",
+        "version": "871ee76be60266cec6e5a8ebe7d19fdc95fc36a2badf2cdcac2ef75657b59346",
+        "signature": "62b9f9e1638125b1f4b261c3a6a3b85ff7a0d4b20ce621eb5f468d5faf35a6b0",
         "affectsGlobalScope": true
       }
     },
@@ -56,7 +56,43 @@
     "exportedModulesMap": {},
     "semanticDiagnosticsPerFile": [
       "./src/analytics.ts",
-      "./src/app.ts",
+      [
+        "./src/app.ts",
+        [
+          {
+            "file": "./src/app.ts",
+            "start": 710,
+            "length": 8,
+            "messageText": "Parameter 'sentence' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/app.ts",
+            "start": 817,
+            "length": 19,
+            "code": 7053,
+            "category": 1,
+            "messageText": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'."
+          },
+          {
+            "file": "./src/app.ts",
+            "start": 839,
+            "length": 19,
+            "code": 7053,
+            "category": 1,
+            "messageText": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'."
+          },
+          {
+            "file": "./src/app.ts",
+            "start": 861,
+            "length": 19,
+            "code": 7053,
+            "category": 1,
+            "messageText": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'."
+          }
+        ]
+      ],
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",

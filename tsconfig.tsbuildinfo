@@ -26,14 +26,9 @@
         "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
         "affectsGlobalScope": true
       },
-      "./src/analytics.ts": {
-        "version": "a00d4b587f83b6b71094c7fb04fbd6d6f11dedda592947d5f7d6fd74f012c445",
-        "signature": "f21f6c3478b24f322cfa7b3024a62fed3a9cd6213ebc24d5393dd60cf0ff29f4",
-        "affectsGlobalScope": true
-      },
-      "./src/app.ts": {
-        "version": "871ee76be60266cec6e5a8ebe7d19fdc95fc36a2badf2cdcac2ef75657b59346",
-        "signature": "62b9f9e1638125b1f4b261c3a6a3b85ff7a0d4b20ce621eb5f468d5faf35a6b0",
+      "./src/classes.ts": {
+        "version": "d2e411a516b871e782289fb82237fb13cdf4c8b10df12a51ca42e951413a23c5",
+        "signature": "efbea0aa80a02d92e964e5920209a8366dabc84499c362699aa80f44e2e83d61",
         "affectsGlobalScope": true
       }
     },
@@ -55,44 +50,7 @@
     "referencedMap": {},
     "exportedModulesMap": {},
     "semanticDiagnosticsPerFile": [
-      "./src/analytics.ts",
-      [
-        "./src/app.ts",
-        [
-          {
-            "file": "./src/app.ts",
-            "start": 710,
-            "length": 8,
-            "messageText": "Parameter 'sentence' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/app.ts",
-            "start": 817,
-            "length": 19,
-            "code": 7053,
-            "category": 1,
-            "messageText": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'."
-          },
-          {
-            "file": "./src/app.ts",
-            "start": 839,
-            "length": 19,
-            "code": 7053,
-            "category": 1,
-            "messageText": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'."
-          },
-          {
-            "file": "./src/app.ts",
-            "start": 861,
-            "length": 19,
-            "code": 7053,
-            "category": 1,
-            "messageText": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'."
-          }
-        ]
-      ],
+      "./src/classes.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",

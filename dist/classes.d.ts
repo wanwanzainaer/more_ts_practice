@@ -11,7 +11,6 @@ declare abstract class Department {
     printEmployeeInformation(): void;
 }
 declare class ITDepartment extends Department {
-    private id;
     admins: string[];
     constructor(id: string, admins: string[]);
     describe(): void;

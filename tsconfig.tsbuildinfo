@@ -26,6 +26,11 @@
         "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
         "affectsGlobalScope": true
       },
+      "./src/app.ts": {
+        "version": "844913c7816394ef69e33aa51d3101031149a907e3a2a1e47a0fd02aee62eca0",
+        "signature": "ee96e22aa68eb948bb6e92a7c2899c52f6aeb6845d79b538e9b588b722a8701b",
+        "affectsGlobalScope": true
+      },
       "./src/classes.ts": {
         "version": "d2e411a516b871e782289fb82237fb13cdf4c8b10df12a51ca42e951413a23c5",
         "signature": "efbea0aa80a02d92e964e5920209a8366dabc84499c362699aa80f44e2e83d61",
@@ -50,6 +55,7 @@
     "referencedMap": {},
     "exportedModulesMap": {},
     "semanticDiagnosticsPerFile": [
+      "./src/app.ts",
       "./src/classes.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts",
       "../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",

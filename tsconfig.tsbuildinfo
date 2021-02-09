@@ -72,9 +72,9 @@
         "affectsGlobalScope": true
       },
       "./src/app.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
+        "version": "a016bb1b3f2ffff5dd5ddebb9aa7213551065bf8f85a0c8c86ee058232a6fbb1",
+        "signature": "c0309d576173cc98769f7ec26c0a07834fe6e0a39095700ae095ca6cd1dfa82e",
+        "affectsGlobalScope": true
       },
       "./src/classes.ts": {
         "version": "baf415ca785785f1d7bce329652454adc33da6e3c6b99e69f8239f38b53440ca",
@@ -103,6 +103,7 @@
       "noEmitOnError": false,
       "strict": true,
       "esModuleInterop": true,
+      "experimentalDecorators": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "watch": true,
